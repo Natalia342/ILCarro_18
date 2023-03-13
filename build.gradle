@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.4.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+//    implementation 'org.testng:testng:7.5'
+//  implementation 'org.seleniumhq.selenium:selenium-java:4.7.1'
+    //testImplementation group: 'org.slf4j', name: 'slf4j-nop', version: '1.6.1'
+ //   implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.8.1'
+ //   testImplementation group: 'org.slf4j', name: 'slf4j-jdk14', version: '2.0.6'
+}
+
+test {
+    useTestNG()
+}
