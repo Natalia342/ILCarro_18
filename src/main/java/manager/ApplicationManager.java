@@ -13,7 +13,7 @@ public class ApplicationManager {
         user = new HelperUser(wd);
         wd.navigate().to("https://ilcarro.web.app/search");
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wd.manage().window().maximize();
+     //   wd.manage().window().maximize();
     }
     public void stop(){
     //    wd.quit();
