@@ -1,7 +1,9 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -29,11 +31,21 @@ public class HelperUser extends HelperBase{
         type(By.cssSelector("#email"),email);
         type(By.cssSelector("#password"),password);
     }
+    public void fillLoginForm(User data){
+        type(By.cssSelector("#email"),data.getEmail());
+        type(By.cssSelector("#password"), data.getPassword());
+    }
     public void fillRegistrationForm(String name, String lastName,String email,String password){
         type(By.cssSelector("#name"),name);
         type(By.cssSelector("#lastName"),lastName);
         type(By.cssSelector("#email"),email);
         type(By.cssSelector("#password"),password);
+    }
+    public void fillRegistrationForm(User user){
+        type(By.cssSelector("#name"), user.getName());
+        type(By.cssSelector("#lastName"), user.getLastName());
+        type(By.cssSelector("#email"), user.getEmail());
+        type(By.cssSelector("#password"), user.getPassword());
     }
  //   public void submitRegistration(){
  //       click(By.xpath("//button[2]"));
@@ -42,9 +54,13 @@ public class HelperUser extends HelperBase{
    //     click(By.xpath("//button[contains(.,\"Y’alla!\")]"));
    //1     click(By.cssSelector("button[type='submit']"));
         wd.findElement(By.cssSelector("button[type='submit']")).submit();
-   //     click(By.linkText("Y’alla!"));
+ //       WebElement element = wd.findElement(By.cssSelector("button[type='submit']"));
+//if(element.isEnabled()==true){
+ //   element.submit(); активый ли кнопка
+}
+        //     click(By.linkText("Y’alla!"));
     //    click(By.xpath("//button[.=\"Y’alla!\"]"));
-    }
+
   //  public boolean messageError()
   //  { return isElementPresent (By.xpath("//div[.=\"It'snot look like email\"]"));
 

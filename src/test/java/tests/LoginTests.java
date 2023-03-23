@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -17,10 +18,12 @@ public class LoginTests extends TestBase {
     }
     @Test
     public void loginPositiveTest() {
-        String email = "natanaym@mail.ru";
-        String password = "6392574Nn$";
+ //       String email = "natanaym@mail.ru";
+ //       String password = "6392574Nn$";
+        User data = new User().withEmail("natanaym@mail.ru").withPassword("6392574Nn$");
         app.getUser().openLoginForm();
-        app.getUser().fillLoginForm(email, password);
+ //       app.getUser().fillLoginForm("natanaym@mail.ru","6392574Nn$" );
+        app.getUser().fillLoginForm(data);
         app.getUser().submitForm();
         Assert.assertTrue(app.getUser().isLoggedSuccessful());
     //   Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[.='Ok']")));
@@ -29,10 +32,13 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginWrongEmail() {
-        String email = "natanaymmail.ru";
-        String password = "6392574Nn$";
+        User data = new User()
+                .withEmail("natanaymmail.ru")
+                .withPassword("6392574Nn$");
+    //    String email = "natanaymmail.ru";
+    //    String password = "6392574Nn$";
         app.getUser().openLoginForm();
-        app.getUser().fillLoginForm(email, password);
+        app.getUser().fillLoginForm(data);
         app.getUser().submitForm();
       //  app.getUser().pause(5);
         Assert.assertTrue(app.getUser().isLoggedFailed());
@@ -41,10 +47,13 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginWrongPassword() {
-        String email = "natanaym@mail.ru";
-        String password = "6392574";
+        User data=new User()
+                .withEmail("natanaym@mail.ru")
+                .withPassword("6392574");
+    //    String email = "natanaym@mail.ru";
+    //    String password = "6392574";
         app.getUser().openLoginForm();
-        app.getUser().fillLoginForm(email, password);
+        app.getUser().fillLoginForm(data);
         app.getUser().submitForm();
        // Assert.assertTrue(app.getUser().isLoggedSuccessful());
        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[.='Ok']")));
