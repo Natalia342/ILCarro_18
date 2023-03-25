@@ -18,9 +18,9 @@ public class RegistrationTests extends TestBase{
     app.getUser().openRegistrationForm();
     int i = (int)(System.currentTimeMillis() / 1000) % 3600;
     User user = new User()
-            .withName("Ma"+i+"Na")
-            .withLastName("Shu"+i+"sha")
-            .withEmail("nat"+i+"@mail.ru")
+            .withName("Ma"+i+"Sy")
+            .withLastName("Lala"+i+"sha")
+            .withEmail("nat"+i+"@gmail.com")
             .withPassword("63457"+i+"Ss$");
  //   String name = "Ma"+i+"Na";
  //   String lastName = "Shu"+i+"sha";

@@ -1,9 +1,8 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -50,14 +49,7 @@ public class HelperUser extends HelperBase{
  //   public void submitRegistration(){
  //       click(By.xpath("//button[2]"));
  //   }
-    public void submitForm(){
-   //     click(By.xpath("//button[contains(.,\"Y’alla!\")]"));
-   //1     click(By.cssSelector("button[type='submit']"));
-        wd.findElement(By.cssSelector("button[type='submit']")).submit();
- //       WebElement element = wd.findElement(By.cssSelector("button[type='submit']"));
-//if(element.isEnabled()==true){
- //   element.submit(); активый ли кнопка
-}
+
         //     click(By.linkText("Y’alla!"));
     //    click(By.xpath("//button[.=\"Y’alla!\"]"));
 
@@ -65,10 +57,21 @@ public class HelperUser extends HelperBase{
   //  { return isElementPresent (By.xpath("//div[.=\"It'snot look like email\"]"));
 
   //  }
-    public void clickCheckbox(){
-    click(By.xpath("//label[@class='checkbox-label terms-label']"));
+    public void clickCheckbox() {
+        //variant 1
+   // click(By.xpath("//label[@class='checkbox-label terms-label']"));
+      //variant 2
+    //    JavascriptExecutor script = (JavascriptExecutor) wd;
+    //    script.executeScript("document.querySelector('#terms-of-use').click();");
+        //variant 3
+        Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();//metod polychaet koordinat
+        int x = rect.getX()+ 5;// прочитай по х координаты нашего обьукта, сдвинся на 5 пикселей и положи его координаты
+        int y = rect.getY()+5;
+        Actions actions = new Actions(wd);
+        actions.moveByOffset(x,y).click().perform();
     }
 
+//
     public boolean isLoggedSuccessful() {
         WebDriverWait wait = new WebDriverWait(wd,10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h2[.='Logged in success']"))));

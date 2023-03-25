@@ -32,4 +32,12 @@ public class HelperBase {
         }
 
     }
+    public void submitForm(){
+        //     click(By.xpath("//button[contains(.,\"Y’alla!\")]"));
+        //1     click(By.cssSelector("button[type='submit']"));
+        wd.findElement(By.cssSelector("button[type='submit']")).submit();
+        //       WebElement element = wd.findElement(By.cssSelector("button[type='submit']"));
+//if(element.isEnabled()==true){
+        //   element.submit(); активый ли кнопка
+    }
 }
