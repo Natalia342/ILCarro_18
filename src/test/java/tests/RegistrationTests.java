@@ -22,6 +22,8 @@ public class RegistrationTests extends TestBase{
             .withLastName("Lala"+i+"sha")
             .withEmail("nat"+i+"@gmail.com")
             .withPassword("63457"+i+"Ss$");
+
+    logger.info("registrationPositiveTest starts with: " + user.getEmail()+" & "+ user.getPassword());
  //   String name = "Ma"+i+"Na";
  //   String lastName = "Shu"+i+"sha";
  //   String email = "nat"+i+"@mail.ru";
@@ -30,6 +32,9 @@ public class RegistrationTests extends TestBase{
     app.getUser().fillRegistrationForm(user);
     app.getUser().clickCheckbox();
     app.getUser().submitForm();
+
+    logger.info("registrationPositiveTest completed");
+
     Assert.assertTrue(app.getUser().isRegistrationSuccessful());
 }
 @Test

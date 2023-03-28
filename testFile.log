@@ -1,0 +1,3 @@
+13599 [Test worker] INFO  tests.TestBase -%PARSER_ERROR[kvp]- registrationPositiveTest starts with: nat1752@gmail.com & 634571752Ss$
+19:32:28.875  INFO  tests.TestBase registrationPositiveTest starts with: nat1948@gmail.com & 634571948Ss$
+19:33:16.607  INFO  tests.TestBase registrationPositiveTest starts with: nat1996@gmail.com & 634571996Ss$

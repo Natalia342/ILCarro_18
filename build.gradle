@@ -18,6 +18,8 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.26'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+    implementation 'ch.qos.logback:logback-classic:1.2.11'
 //    implementation 'org.testng:testng:7.5'
 //  implementation 'org.seleniumhq.selenium:selenium-java:4.7.1'
     //testImplementation group: 'org.slf4j', name: 'slf4j-nop', version: '1.6.1'
