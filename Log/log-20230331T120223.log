@@ -1,0 +1,29 @@
+12:02:27.135  INFO  tests.TestBase ### Start testloginPositiveTest
+12:02:27.141  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+12:02:37.174  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+12:02:37.176  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Log in ']
+12:02:37.205  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Log in ']is found successfully
+12:02:37.290  INFO  manager.MyListener Start searching element byBy.cssSelector: #ema
+12:02:47.317  INFO  manager.MyListener Something went wrong!
+12:02:47.318  INFO  manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"#ema"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9bf421047c2f583a31ed0dcc238b9520
+*** Element info: {Using=css selector, value=#ema}
+12:02:47.318  INFO  manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"#ema"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9bf421047c2f583a31ed0dcc238b9520
+*** Element info: {Using=css selector, value=#ema}
+12:02:47.918  INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-167.png
+12:02:47.919  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+12:02:57.943  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+12:02:57.944  INFO  tests.TestBase ### Finished###

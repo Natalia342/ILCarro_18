@@ -1,0 +1,18 @@
+10:37:43.985  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+10:37:54.057  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+10:37:54.061  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Log in ']
+10:37:54.085  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Log in ']is found successfully
+10:37:54.174  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+10:37:54.193  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+10:37:54.353  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+10:37:54.381  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+10:37:54.523  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+10:37:54.537  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+10:37:54.557  INFO  manager.MyListener Start searching element byBy.xpath: //h2[.='Logged in success']
+10:37:55.636  INFO  manager.MyListener The element with locator byBy.xpath: //h2[.='Logged in success']is found successfully
+10:37:55.672  INFO  manager.MyListener Start searching element byBy.xpath: //h2[.='Logged in success']
+10:37:55.682  INFO  manager.MyListener The element with locator byBy.xpath: //h2[.='Logged in success']is found successfully
+10:37:55.705  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+10:37:55.716  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+10:37:55.716  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+10:37:55.732  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully

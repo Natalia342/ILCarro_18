@@ -32,6 +32,7 @@ public class HelperUser extends HelperBase{
     }
     public void fillLoginForm(User data){
         type(By.cssSelector("#email"),data.getEmail());
+     //   type(By.cssSelector("#ema"),data.getEmail());
         type(By.cssSelector("#password"), data.getPassword());
     }
     public void fillRegistrationForm(String name, String lastName,String email,String password){

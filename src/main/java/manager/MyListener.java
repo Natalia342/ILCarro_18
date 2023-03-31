@@ -7,6 +7,8 @@ import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+
 public class MyListener extends AbstractWebDriverEventListener {
 
     Logger logger = LoggerFactory.getLogger(MyListener.class);
@@ -17,7 +19,7 @@ public class MyListener extends AbstractWebDriverEventListener {
     @Override
     public void beforeFindBy(By by, WebElement element, WebDriver driver) {
         super.beforeFindBy(by, element, driver);
-        logger.info("Start searching element by"+ by);
+        logger.info("Start searching element by"+ by);// за это отвечает переменная by
     }
 
     @Override
@@ -32,5 +34,11 @@ public class MyListener extends AbstractWebDriverEventListener {
         logger.info("Something went wrong!");
         logger.info(throwable.getMessage());
         logger.info(throwable.fillInStackTrace().getMessage());
+        int i = (int)(System.currentTimeMillis() / 1000) % 3600;
+        String link = "src/test/screenshots/screenshot-"+ i + ".png";
+
+        new  HelperBase(driver).takeScreenShot(link);//создание обьекта
+        logger.info("Here is the link to screenshot with error: " + link);
+
     }
 }

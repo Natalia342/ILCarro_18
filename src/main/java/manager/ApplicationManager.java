@@ -18,6 +18,7 @@ public class ApplicationManager {
 
 
     public void init(){
+
     //    wd = new ChromeDriver();
         wd = new EventFiringWebDriver(new ChromeDriver());
         wd.register(new MyListener());//получил доступ к полям MyListener
