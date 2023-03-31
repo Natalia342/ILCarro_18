@@ -1,0 +1,20 @@
+12:27:06.750  INFO  tests.TestBase ### Start testloginPositiveTest
+12:27:06.755  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+12:27:16.778  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+12:27:16.780  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Log in ']
+12:27:16.809  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Log in ']is found successfully
+12:27:16.888  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+12:27:16.915  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+12:27:17.094  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+12:27:17.117  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+12:27:17.242  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+12:27:17.259  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+12:27:17.284  INFO  manager.MyListener Start searching element byBy.xpath: //h2[.='Logged in success']
+12:27:18.375  INFO  manager.MyListener The element with locator byBy.xpath: //h2[.='Logged in success']is found successfully
+12:27:18.951  INFO  manager.MyListener Start searching element byBy.xpath: //h2[.='Logged in success']
+12:27:18.965  INFO  manager.MyListener The element with locator byBy.xpath: //h2[.='Logged in success']is found successfully
+12:27:18.979  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+12:27:18.997  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+12:27:18.998  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+12:27:19.012  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+12:27:19.049  INFO  tests.TestBase ### Finished###
