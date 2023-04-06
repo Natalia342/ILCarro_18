@@ -1,0 +1,26 @@
+20:05:49.843  INFO  tests.TestBase ### Start testRegistrationWrongPassword
+20:05:49.847  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:05:59.883  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:05:59.884  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Sign up ']
+20:05:59.914  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Sign up ']is found successfully
+20:06:00.004  INFO  manager.MyListener Start searching element byBy.cssSelector: #name
+20:06:00.025  INFO  manager.MyListener The element with locator byBy.cssSelector: #nameis found successfully
+20:06:00.173  INFO  manager.MyListener Start searching element byBy.cssSelector: #lastName
+20:06:00.192  INFO  manager.MyListener The element with locator byBy.cssSelector: #lastNameis found successfully
+20:06:00.321  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+20:06:00.334  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+20:06:00.479  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+20:06:00.503  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+20:06:00.627  INFO  manager.MyListener Start searching element byBy.xpath: //*[@class='checkbox-container']
+20:06:00.644  INFO  manager.MyListener The element with locator byBy.xpath: //*[@class='checkbox-container']is found successfully
+20:06:00.892  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+20:06:00.908  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+20:06:00.930  INFO  manager.MyListener Start searching element byBy.xpath: //div[.='Password must contain 1 uppercase letter, 1 lowercase letter, 1 number and one special symbol of [@$#^&*!]']
+20:06:00.955  INFO  manager.MyListener The element with locator byBy.xpath: //div[.='Password must contain 1 uppercase letter, 1 lowercase letter, 1 number and one special symbol of [@$#^&*!]']is found successfully
+20:06:01.004  INFO  manager.MyListener Start searching element byBy.xpath: //div[.='Password must contain 1 uppercase letter, 1 lowercase letter, 1 number and one special symbol of [@$#^&*!]']
+20:06:01.017  INFO  manager.MyListener The element with locator byBy.xpath: //div[.='Password must contain 1 uppercase letter, 1 lowercase letter, 1 number and one special symbol of [@$#^&*!]']is found successfully
+20:06:01.034  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:06:01.915  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:06:01.915  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:06:01.931  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:06:01.995  INFO  tests.TestBase ### Finished###

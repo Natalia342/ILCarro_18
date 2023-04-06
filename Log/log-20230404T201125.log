@@ -1,0 +1,212 @@
+20:11:39.019  INFO  tests.TestBase ### Start testloginPositiveTest
+20:11:39.025  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:11:49.099  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:11:49.100  INFO  manager.NGListener Start of the test:loginPositiveTest
+20:11:49.101  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Log in ']
+20:11:49.132  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Log in ']is found successfully
+20:11:49.210  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+20:11:49.222  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+20:11:49.372  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+20:11:49.396  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+20:11:49.515  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+20:11:49.534  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+20:11:49.556  INFO  manager.MyListener Start searching element byBy.xpath: //h2[.='Logged in success']
+20:11:50.820  INFO  manager.MyListener The element with locator byBy.xpath: //h2[.='Logged in success']is found successfully
+20:11:50.885  INFO  manager.MyListener Start searching element byBy.xpath: //h2[.='Logged in success']
+20:11:50.909  INFO  manager.MyListener The element with locator byBy.xpath: //h2[.='Logged in success']is found successfully
+20:11:50.925  INFO  manager.NGListener Test success:loginPositiveTest
+20:11:50.925  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:11:50.957  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:11:50.957  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:11:50.975  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:11:51.016  INFO  tests.TestBase ### Finished###
+20:11:51.017  INFO  tests.TestBase ### Start testloginWrongEmail
+20:11:51.018  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:11:51.032  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:11:51.033  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:11:51.051  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:11:51.127  INFO  manager.NGListener Start of the test:loginWrongEmail
+20:11:51.127  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Log in ']
+20:11:51.140  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Log in ']is found successfully
+20:11:51.201  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+20:11:51.218  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+20:11:51.358  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+20:11:51.374  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+20:11:51.525  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+20:11:51.546  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+20:11:51.568  INFO  manager.MyListener Start searching element byBy.xpath: //div[.="It'snot look like email"]
+20:11:51.596  INFO  manager.MyListener The element with locator byBy.xpath: //div[.="It'snot look like email"]is found successfully
+20:11:51.632  INFO  manager.MyListener Start searching element byBy.xpath: //div[.="It'snot look like email"]
+20:11:51.657  INFO  manager.MyListener The element with locator byBy.xpath: //div[.="It'snot look like email"]is found successfully
+20:11:51.675  INFO  manager.NGListener Test success:loginWrongEmail
+20:11:51.676  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:11:51.995  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:11:51.996  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:11:52.012  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:11:52.060  INFO  tests.TestBase ### Finished###
+20:11:52.060  INFO  tests.TestBase ### Start testloginWrongPassword
+20:11:52.061  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:12:02.118  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:12:02.119  INFO  manager.NGListener Start of the test:loginWrongPassword
+20:12:02.119  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Log in ']
+20:12:02.135  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Log in ']is found successfully
+20:12:02.168  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+20:12:02.182  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+20:12:02.311  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+20:12:02.325  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+20:12:02.437  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+20:12:02.448  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+20:12:02.465  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:12:02.911  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:12:02.911  INFO  manager.NGListener Test success:loginWrongPassword
+20:12:02.911  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:12:02.927  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:12:02.927  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:12:02.946  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:12:02.982  INFO  tests.TestBase ### Finished###
+20:12:02.984  INFO  tests.TestBase ### Start testRegistrationWrongEmail
+20:12:02.985  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:12:13.018  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:12:13.019  INFO  manager.NGListener Start of the test:RegistrationWrongEmail
+20:12:13.019  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Sign up ']
+20:12:13.038  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Sign up ']is found successfully
+20:12:13.097  INFO  manager.MyListener Start searching element byBy.cssSelector: #name
+20:12:13.115  INFO  manager.MyListener The element with locator byBy.cssSelector: #nameis found successfully
+20:12:13.239  INFO  manager.MyListener Start searching element byBy.cssSelector: #lastName
+20:12:13.259  INFO  manager.MyListener The element with locator byBy.cssSelector: #lastNameis found successfully
+20:12:13.375  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+20:12:13.400  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+20:12:13.535  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+20:12:13.552  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+20:12:13.675  INFO  manager.MyListener Start searching element byBy.xpath: //*[@class='checkbox-container']
+20:12:13.693  INFO  manager.MyListener The element with locator byBy.xpath: //*[@class='checkbox-container']is found successfully
+20:12:18.294  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+20:12:18.312  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+20:12:18.328  INFO  manager.MyListener Start searching element byBy.xpath: //div[.='Wrong email format']
+20:12:18.345  INFO  manager.MyListener The element with locator byBy.xpath: //div[.='Wrong email format']is found successfully
+20:12:18.376  INFO  manager.MyListener Start searching element byBy.xpath: //div[.='Wrong email format']
+20:12:18.384  INFO  manager.MyListener The element with locator byBy.xpath: //div[.='Wrong email format']is found successfully
+20:12:18.398  INFO  manager.NGListener Test success:RegistrationWrongEmail
+20:12:18.399  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:12:19.476  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:12:19.477  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:12:19.496  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:12:19.537  INFO  tests.TestBase ### Finished###
+20:12:19.537  INFO  tests.TestBase ### Start testRegistrationWrongPassword
+20:12:19.538  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:12:29.598  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:12:29.598  INFO  manager.NGListener Start of the test:RegistrationWrongPassword
+20:12:29.598  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Sign up ']
+20:12:29.617  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Sign up ']is found successfully
+20:12:29.665  INFO  manager.MyListener Start searching element byBy.cssSelector: #name
+20:12:29.681  INFO  manager.MyListener The element with locator byBy.cssSelector: #nameis found successfully
+20:12:29.823  INFO  manager.MyListener Start searching element byBy.cssSelector: #lastName
+20:12:29.838  INFO  manager.MyListener The element with locator byBy.cssSelector: #lastNameis found successfully
+20:12:29.966  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+20:12:29.995  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+20:12:30.138  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+20:12:30.151  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+20:12:30.303  INFO  manager.MyListener Start searching element byBy.xpath: //*[@class='checkbox-container']
+20:12:30.322  INFO  manager.MyListener The element with locator byBy.xpath: //*[@class='checkbox-container']is found successfully
+20:12:30.357  INFO  manager.MyListener Something went wrong!
+20:12:30.358  INFO  manager.MyListener move target out of bounds
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+20:12:30.358  INFO  manager.MyListener move target out of bounds
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+20:12:31.018  INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-750.png
+20:12:31.019  INFO  manager.NGListener Test Failure:org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+20:12:31.020  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:12:41.048  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:12:41.048  INFO  tests.TestBase ### Finished###
+20:12:41.049  INFO  tests.TestBase ### Start testregistrationPositiveTest
+20:12:41.050  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+20:12:51.099  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+20:12:51.100  INFO  manager.NGListener Start of the test:registrationPositiveTest
+20:12:51.100  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Sign up ']
+20:12:51.121  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Sign up ']is found successfully
+20:12:51.188  INFO  tests.TestBase registrationPositiveTest starts with: nat771@gmail.com & 63457771Ss$
+20:12:51.188  INFO  manager.MyListener Start searching element byBy.cssSelector: #name
+20:12:51.214  INFO  manager.MyListener The element with locator byBy.cssSelector: #nameis found successfully
+20:12:51.340  INFO  manager.MyListener Start searching element byBy.cssSelector: #lastName
+20:12:51.354  INFO  manager.MyListener The element with locator byBy.cssSelector: #lastNameis found successfully
+20:12:51.487  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+20:12:51.509  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+20:12:51.656  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+20:12:51.682  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+20:12:51.819  INFO  manager.MyListener Start searching element byBy.xpath: //*[@class='checkbox-container']
+20:12:51.837  INFO  manager.MyListener The element with locator byBy.xpath: //*[@class='checkbox-container']is found successfully
+20:12:51.864  INFO  manager.MyListener Something went wrong!
+20:12:51.864  INFO  manager.MyListener move target out of bounds
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+20:12:51.864  INFO  manager.MyListener move target out of bounds
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+20:12:52.473  INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-771.png
+20:12:52.473  INFO  manager.NGListener Test Failure:org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+20:12:52.474  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+20:13:02.527  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+20:13:02.527  INFO  tests.TestBase ### Finished###
+20:13:02.528  INFO  tests.TestBase ### Start testsearchCar
+20:13:02.529  INFO  manager.NGListener Start of the test:searchCar
+20:13:02.530  INFO  manager.MyListener Start searching element byBy.cssSelector: #city
+20:13:12.575  INFO  manager.MyListener Something went wrong!
+20:13:12.575  INFO  manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+*** Element info: {Using=css selector, value=#city}
+20:13:12.575  INFO  manager.MyListener no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+*** Element info: {Using=css selector, value=#city}
+20:13:13.131  INFO  manager.MyListener Here is the link to screenshot with error: src/test/screenshots/screenshot-792.png
+20:13:13.132  INFO  manager.NGListener Test Failure:org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SND699A', ip: '192.168.1.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d473476e5dc36a7541dcc44f55d4798
+*** Element info: {Using=css selector, value=#city}
+20:13:13.132  INFO  tests.TestBase ### Finished###

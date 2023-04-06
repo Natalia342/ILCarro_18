@@ -1,0 +1,18 @@
+18:08:17.417  INFO  tests.TestBase ### Start testloginWrongPassword
+18:08:17.424  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Logout ']
+18:08:27.508  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Logout ']is found successfully
+18:08:27.511  INFO  manager.MyListener Start searching element byBy.xpath: //a[.=' Log in ']
+18:08:27.534  INFO  manager.MyListener The element with locator byBy.xpath: //a[.=' Log in ']is found successfully
+18:08:27.609  INFO  manager.MyListener Start searching element byBy.cssSelector: #email
+18:08:27.625  INFO  manager.MyListener The element with locator byBy.cssSelector: #emailis found successfully
+18:08:27.795  INFO  manager.MyListener Start searching element byBy.cssSelector: #password
+18:08:27.815  INFO  manager.MyListener The element with locator byBy.cssSelector: #passwordis found successfully
+18:08:27.925  INFO  manager.MyListener Start searching element byBy.cssSelector: button[type='submit']
+18:08:27.953  INFO  manager.MyListener The element with locator byBy.cssSelector: button[type='submit']is found successfully
+18:08:27.972  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+18:08:29.292  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+18:08:29.298  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+18:08:29.321  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+18:08:29.321  INFO  manager.MyListener Start searching element byBy.xpath: //button[.='Ok']
+18:08:29.352  INFO  manager.MyListener The element with locator byBy.xpath: //button[.='Ok']is found successfully
+18:08:29.404  INFO  tests.TestBase ### Finished###

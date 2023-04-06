@@ -1,14 +1,17 @@
 package tests;
 
+import manager.NGListener;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
+@Listeners(NGListener.class)
 public class LoginTests extends TestBase {
     @BeforeMethod
     public void preCondition(){

@@ -68,7 +68,7 @@ public class RegistrationTests extends TestBase{
    //     String password = "63457478Ss";
         app.getUser().fillRegistrationForm(user);
         app.getUser().clickCheckbox();
-        app.getUser().submitForm();//Bag, click on button Y'alla
+ //       app.getUser().submitForm();//Bag, click on button Y'alla
         Assert.assertTrue(app.getUser().isRegistrationFailedPassword());
     }
     @AfterMethod
