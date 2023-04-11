@@ -1,6 +1,7 @@
 package tests;
 
 import manager.NGListener;
+import manager.ProviderData;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -13,17 +14,27 @@ import java.util.concurrent.TimeUnit;
 
 @Listeners(NGListener.class)
 public class LoginTests extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getUser().isLogged()){
             app.getUser().logout();
         }
     }
-    @Test
-    public void loginPositiveTest() {
+    @Test()
+    public void loginPositiveTestConfig() {
+
+        app.getUser().openLoginForm();
+        //       app.getUser().fillLoginForm("natanaym@mail.ru","6392574Nn$" );
+        app.getUser().fillLoginForm(app.getEmail(), app.getPassword());
+        app.getUser().submitForm();
+        Assert.assertTrue(app.getUser().isLoggedSuccessful());
+        //   Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[.='Ok']")));
+    }
+    @Test(dataProvider = "loginModelDto",dataProviderClass = ProviderData.class, invocationCount = 3, groups = {"smoke"})//Dto - data,transfer,object
+    public void loginPositiveTest(User data) {
  //       String email = "natanaym@mail.ru";
  //       String password = "6392574Nn$";
-        User data = new User().withEmail("natanaym@mail.ru").withPassword("6392574Nn$");
+ //       User data = new User().withEmail("natanaym@mail.ru").withPassword("6392574Nn$");
         app.getUser().openLoginForm();
  //       app.getUser().fillLoginForm("natanaym@mail.ru","6392574Nn$" );
         app.getUser().fillLoginForm(data);
@@ -33,7 +44,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"smoke", "regress"})
     public void loginWrongEmail() {
         User data = new User()
                 .withEmail("natanaymmail.ru")
@@ -48,7 +59,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"regress"})
     public void loginWrongPassword() {
         User data=new User()
                 .withEmail("natanaym@mail.ru")
@@ -62,7 +73,7 @@ public class LoginTests extends TestBase {
        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[.='Ok']")));
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
       app.getUser().clickOkButton();
     }

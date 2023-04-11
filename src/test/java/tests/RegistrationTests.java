@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -7,13 +8,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getUser().isLogged()){
             app.getUser().logout();
         }
     }
-@Test
+@Test(groups = {"smoke"})
     public void registrationPositiveTest(){
     app.getUser().openRegistrationForm();
     int i = (int)(System.currentTimeMillis() / 1000) % 3600;
@@ -37,6 +38,24 @@ public class RegistrationTests extends TestBase{
 
     Assert.assertTrue(app.getUser().isRegistrationSuccessful());
 }
+    @Test(groups = {"smoke"},dataProvider = "registrationCSV",dataProviderClass = ProviderData.class)
+    public void registrationPositiveTestCSV(User user){
+        app.getUser().openRegistrationForm();
+
+        logger.info("registrationPositiveTest starts with: " + user.getEmail()+" & "+ user.getPassword());
+        //   String name = "Ma"+i+"Na";
+        //   String lastName = "Shu"+i+"sha";
+        //   String email = "nat"+i+"@mail.ru";
+        //   String password = "63457"+i+"Ss$";
+
+        app.getUser().fillRegistrationForm(user);
+        app.getUser().clickCheckbox();
+        app.getUser().submitForm();
+
+        logger.info("registrationPositiveTest completed");
+
+        Assert.assertTrue(app.getUser().isRegistrationSuccessful());
+    }
 @Test
     public void RegistrationWrongEmail(){
     app.getUser().openRegistrationForm();
@@ -71,7 +90,7 @@ public class RegistrationTests extends TestBase{
  //       app.getUser().submitForm();//Bag, click on button Y'alla
         Assert.assertTrue(app.getUser().isRegistrationFailedPassword());
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.getUser().clickOkButton();
     }
